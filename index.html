@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Физические Эксперименты</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .experiments-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 0;
+    }
+
+    .experiments-list li {
+      background: #1e1e1e;
+      padding: 15px 20px;
+      margin: 10px 0;
+      border: 1px solid #333;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .experiments-list li a {
+      text-decoration: none;
+      color: #64b5f6;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .experiments-list li a:hover {
+      color: #90caf9;
+    }
+
+    .pdf-link {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .pdf-link a {
+      text-decoration: none;
+      color: #121212;
+      background-color: #64b5f6;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .pdf-link a:hover {
+      background-color: #90caf9;
+      color: #000;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Физические Эксперименты</h1> 
+  </header>
+
+  <section>
+    <ul class="experiments-list">
+      <li><a href="/src/experiments/cube/index.html">1. Линейные размеры параллелепипедов</a></li>
+      <li><a href="/src/experiments/races/index.html">2. Релятивистские гонки</a></li>
+      <li><a href="/src/experiments/geometry/index.html">3. Обьекты сложной геометрии</a></li>
+      <li><a href="/src/experiments/city/index.html">4. Город на скоростях света</a></li>
+      <li><a href="/src/experiments/cube-rotation/index.html">5. !Вращение куба</a></li>
+      <li><a href="/src/experiments/wheel-rotation/index.html">6. !Вращение колеса</a></li>
+      <li><a href="/src/experiments/geomatry-rotation/index.html">7. !Вращение сложного обьекта</a></li> 
+    </ul>
+  </section>
+
+  <section class="pdf-link">
+    <a href="/src/assets/VPV.pdf">Посмотреть описание проекта (.pdf)</a>
+  </section>
+
+  <footer>
+    <p>Бдюлев Роман Алексеевич Б04-404</p>
+  </footer>
+</body>
+</html>
